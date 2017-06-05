@@ -1,0 +1,460 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+/*formatação da página*/
+margin:0px;/*margem do documento*/
+font-family:"Segoe UI",Arial, Helvetica, sans-serif;/*fontes*/
+font-size:14px;
+background-color:#FFFFFF;
+color:#000;
+}
+/*alinhamento da pagina*/
+div#corpo{
+height:200px;
+width:1400px;
+margin:auto;/*centralizar a pagina*/
+}
+
+
+/*configura o local do menu*/
+div#menup{
+	text-align: center;
+background-color:#7D0000;
+height:100px;
+width:100%;
+}
+/*configurações do rodape */
+div#rodape{
+background-color:#7D0000;
+height:100px;
+width:100%;
+padding-top:13px;/*desloca o texto para baixo*/
+box-sizing:border-box;/*faz com que a caixa nao aumente quando usamos o comando acima*/
+color:#FFFFFF;
+font-size:12px;
+}
+/*define o menu*/
+div#menup ul{
+list-style:none;/*tira os pontinhos do menu*/
+margin-left:-40px;/*alinha o menu com o quadrado*/
+}
+/*formata os itens do menu*/
+div#menup ul li{
+float:left;/*define que devem ficar um ao lado do outro*/
+margin-top:10px;
+}
+/*define o link do menu, e tira o underline*/
+div#menup ul li a:link,div#menup ul li a:visited{
+padding:10px;
+color:#FFFFFF;
+font-size:16px;
+text-decoration:none;
+}
+/*coloca efeito no link do menu ao passar o mouse*/
+div#menup ul li a:hover{
+background-color:#FF0000;
+}
+/*campo de texto do formulario e caixa de seleção*/
+input, select{
+padding:10px;
+width:400px;
+border: solid 1px #ccc;/*coloca contorno*/
+}
+/*define tamanho das caixas de seleção*/
+input#masculino,input#feminino,input#propaganda{
+width:20px;
+}
+select
+{
+	width:422px;
+}
+/*define tamanho dos botoes*/
+input#enviar, input#limpar{
+border:solid 1px #7D0000;
+background-color:#FF0000;
+color:#FFFFFF;
+width:100px;
+}
+/*coloca efeito nos botoes ao passar o mouse*/
+input#enviar:hover, input#limpar:hover{
+background-color:#7D0000}
+
+/*formata os quadrados das fotos*/
+div#fotos{
+width:500px;
+height:400px;
+padding:10px;
+display:table;
+}
+
+#fotos p {
+ position: center; 
+ top: 50%; 
+ display: table-cell; 
+ vertical-align: middle;
+ }
+#fotos span {
+ display:block; 
+ position: center; 
+ top: 50%;
+ }
+div#conteudo{
+	display:table;
+	height:100px;
+	width:100%;
+	margin-top:20px;
+	
+	
+	
+}
+
+/*formata as imagens dos quadrados*/
+div.fotos img{width:100%;height:100%}
+
+/*formata a div dentro do painel2*/
+div#painel2 div{width:320px;height:600px;float:left;padding:2px;
+}
+
+div.paineis{display:table}
+/*formata as imagens que estao na div do painel 2*/
+div#painel2 div img{width:300px;
+height:350px;}
+
+/*formata os links que estao na div do painel 2*/
+div#painel2 div p a:link,div#painel2 div p a:visited{
+color:#990000;
+text-decoration:none}
+
+div#painel2 div p a:hover{color:#FF0000}
+
+div#painel1 div{width:400px;float:left;margin-top:10px;margin-bottom:10px}
+
+
+ div#container {
+	 display:table;
+	height:100px;
+	width:1000px;
+	margin-top:20px;
+	position:relative;
+	padding:20px;
+	float:left;
+	font-family:Galeforce BTN;
+}
+
+
+#foto1{
+ width:350px;
+ height:200px;
+ fonte-size:16px;
+ background:#abcdef;
+ position: center;
+ top: 5px;
+ left:50px;
+ line-height:100px;
+}
+#comentario {
+ position:relative; top:-80px;
+ left:170px;
+ padding:2px;
+ line-height:20px;
+ background:#333;
+ color:#fff;
+ display: block;
+ width:120px;
+ opacity: 0;
+
+ -webkit-transition: all 300ms ease;
+ -moz-transition: all 300ms ease;
+ -ms-transition: all 300ms ease;
+ -o-transition: all 300ms ease;
+ transition: all 300ms ease;
+}
+
+#foto1:hover  #comentario{
+      opacity: 1;
+}
+
+#foto2{
+width:350px;
+ height:200px;
+ fonte-size:16px;
+ background:#abcdef;
+ position: center;
+ top: 5px;
+ left:50px;
+ line-height:100px;
+}
+#comentario {
+ position:relative; top:-80px;
+ left:170px;
+ padding:2px;
+ line-height:20px;
+ background:#333;
+ color:#fff;
+ display: block;
+ width:300px;
+ opacity: 0;
+
+ -webkit-transition: all 300ms ease;
+ -moz-transition: all 300ms ease;
+ -ms-transition: all 300ms ease;
+ -o-transition: all 300ms ease;
+ transition: all 300ms ease;
+}
+
+#foto2:hover  #comentario{
+      opacity: 1;
+}
+
+#foto3{
+width:350px;
+ height:200px;
+ fonte-size:16px;
+ background:#abcdef;
+ position: center;
+ top: 5px;
+ left:50px;
+ line-height:100px;
+}
+#comentario {
+ position:relative; top:-80px;
+ left:170px;
+ padding:2px;
+ line-height:20px;
+ background:#333;
+ color:#fff;
+ display: block;
+ width:300px;
+ opacity: 0;
+
+ -webkit-transition: all 300ms ease;
+ -moz-transition: all 300ms ease;
+ -ms-transition: all 300ms ease;
+ -o-transition: all 300ms ease;
+ transition: all 300ms ease;
+}
+
+#foto3:hover  #comentario{
+      opacity: 1;
+}
+#foto4{
+ width:350px;
+ height:200px;
+ fonte-size:16px;
+ background:#abcdef;
+ position: center;
+ top: 5px;
+ left:50px;
+ line-height:100px;
+}
+#comentario {
+ position:relative; top:-80px;
+ left:170px;
+ padding:2px;
+ line-height:20px;
+ background:#333;
+ color:#fff;
+ display: block;
+ width:300px;
+ opacity: 0;
+
+ -webkit-transition: all 300ms ease;
+ -moz-transition: all 300ms ease;
+ -ms-transition: all 300ms ease;
+ -o-transition: all 300ms ease;
+ transition: all 300ms ease;
+}
+
+#foto4:hover  #comentario{
+      opacity: 1;
+}
+#foto5{
+ width:350px;
+ height:200px;
+ fonte-size:16px;
+ background:#abcdef;
+ position: center;
+ top: 5px;
+ left:50px;
+ line-height:100px;
+}
+#comentario {
+ position:relative; top:-80px;
+ left:170px;
+ padding:2px;
+ line-height:20px;
+ background:#333;
+ color:#fff;
+ display: block;
+ width:300px;
+ opacity: 0;
+
+ -webkit-transition: all 300ms ease;
+ -moz-transition: all 300ms ease;
+ -ms-transition: all 300ms ease;
+ -o-transition: all 300ms ease;
+ transition: all 300ms ease;
+}
+
+#foto5:hover  #comentario{
+      opacity: 1;
+}
+#foto6{
+ width:350px;
+ height:200px;
+ fonte-size:16px;
+ background:#abcdef;
+ position: center;
+ top: 5px;
+ left:50px;
+ line-height:100px;
+}
+#comentario {
+ position:relative; top:-80px;
+ left:170px;
+ padding:2px;
+ line-height:20px;
+ background:#333;
+ color:#fff;
+ display: block;
+ width:300px;
+ opacity: 0;
+
+ -webkit-transition: all 300ms ease;
+ -moz-transition: all 300ms ease;
+ -ms-transition: all 300ms ease;
+ -o-transition: all 300ms ease;
+ transition: all 300ms ease;
+}
+
+#foto6:hover  #comentario{
+      opacity: 1;
+}
+
+#foto7{
+ width:350px;
+ height:200px;
+ fonte-size:16px;
+ background:#abcdef;
+ position: center;
+ top: 5px;
+ left:50px;
+ line-height:100px;
+}
+#comentario {
+ position:relative; top:-80px;
+ left:170px;
+ padding:2px;
+ line-height:20px;
+ background:#333;
+ color:#fff;
+ display: block;
+ width:300px;
+ opacity: 0;
+
+ -webkit-transition: all 300ms ease;
+ -moz-transition: all 300ms ease;
+ -ms-transition: all 300ms ease;
+ -o-transition: all 300ms ease;
+ transition: all 300ms ease;
+}
+
+#foto7:hover  #comentario{
+      opacity: 1;
+}
+
+#foto8{
+ width:350px;
+ height:200px;
+ fonte-size:16px;
+ background:#abcdef;
+ position: center;
+ top: 5px;
+ left:50px;
+ line-height:100px;
+}
+#comentario {
+ position:relative; top:-80px;
+ left:170px;
+ padding:2px;
+ line-height:20px;
+ background:#333;
+ color:#fff;
+ display: block;
+ width:300px;
+ opacity: 0;
+
+ -webkit-transition: all 300ms ease;
+ -moz-transition: all 300ms ease;
+ -ms-transition: all 300ms ease;
+ -o-transition: all 300ms ease;
+ transition: all 300ms ease;
+}
+
+#foto8:hover  #comentario{
+      opacity: 1;
+}
+
+#foto9{
+ width:350px;
+ height:200px;
+ fonte-size:16px;
+ background:#abcdef;
+ position: center;
+ top: 5px;
+ left:50px;
+ line-height:100px;
+}
+#comentario {
+ position:relative; top:-80px;
+ left:170px;
+ padding:2px;
+ line-height:20px;
+ background:#333;
+ color:#fff;
+ display: block;
+ width:300px;
+ opacity: 0;
+
+ -webkit-transition: all 300ms ease;
+ -moz-transition: all 300ms ease;
+ -ms-transition: all 300ms ease;
+ -o-transition: all 300ms ease;
+ transition: all 300ms ease;
+}
+
+#foto9:hover  #comentario{
+      opacity: 1;
+}
+
+#foto10{
+ width:350px;
+ height:200px;
+ fonte-size:16px;
+ background:#abcdef;
+ position: center;
+ top: 5px;
+ left:50px;
+ line-height:100px;
+}
+#comentario {
+ position:relative; top:-80px;
+ left:170px;
+ padding:2px;
+ line-height:20px;
+ background:#333;
+ color:#fff;
+ display: block;
+ width:300px;
+ opacity: 0;
+
+ -webkit-transition: all 300ms ease;
+ -moz-transition: all 300ms ease;
+ -ms-transition: all 300ms ease;
+ -o-transition: all 300ms ease;
+ transition: all 300ms ease;
+}
+
+#foto10:hover  #comentario{
+      opacity: 1;
+}
